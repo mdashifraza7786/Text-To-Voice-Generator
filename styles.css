@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header h2{
+    background: rgb(0, 84, 84);
+    color: white;
+    padding: 15px 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+}
+.container{
+    margin-top: 50px;
+}
+.container textarea{
+    border: none;
+    background: white;
+    box-shadow: 0 0 10px 1px #ccc;
+    /* border-radius: 10px; */
+    outline: none;
+    resize: none; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 15px;
+    font-size: 22px;
+    transition: ease-in-out 0.3s;
+}
+.container texatarea:hover{
+    background: white;
+    box-shadow: 0 0 10px 1px #ccc;
+    transition: ease-in-out 0.3s;
+}
+.container textaread{
+    box-shadow: 0 0 10px 1px #ccc;
+}
+.container #genbutton{
+    background: rgb(0, 84, 84);
+    color: white;
+    font-size: 30px;
+    padding: 5px 15px;
+    display: block;
+    margin: auto auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#genbutton:disabled{
+    background: rgb(140, 188, 188);
+    color: rgb(255, 255, 255);
+    cursor: not-allowed;
+}
+.container #download{
+    background: rgb(0, 84, 84);
+    color: white;
+    font-size: 30px;
+    padding: 5px 15px;
+    display: block;
+    margin: auto auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.setting{
+    display: block;
+    margin: auto auto;
+    width: 39.5vw;
+    background: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+.fside{
+    float: left;
+    text-align: left;
+}
+.sside{
+    
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+select{
+    padding: 5px 15px;
+    font-size: 223px;
+    all: unset; 
+    padding-right: 15px;
+    border-bottom: 1px solid rgb(0, 84, 84);
+    background: url('https://www.charbase.com/images/glyph/9662') no-repeat right;
+    background-size: 16px;
+}
+select option {
+   all: unset;
+   padding: 5px 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    textarea{
+        width: 80vw;
+    }
+    .setting{
+        width: 84.8vw;
+    }
+}
