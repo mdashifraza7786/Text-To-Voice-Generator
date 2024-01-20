@@ -11,6 +11,9 @@ The Text to Voice Generator is a web application that allows users to convert te
 - **Character Counter:** A character counter dynamically displays the number of characters in the input text.
 - **Download Option:** After generating the audio, users can conveniently download the resulting MP3 file.
 
+## Demo
+ [Click Here To See Live Demo](https://ashifraza.in/voicelab/)
+
 ## Usage
 
 1. Enter your desired script in the text area.
